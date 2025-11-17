@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/foundation.dart' show kIsWeb, debugPrint;
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import '../models/user.dart';
@@ -16,6 +16,11 @@ class DatabaseService {
   static Database? _database;
 
   Future<Database> get database async {
+    // On web, database is not available
+    if (kIsWeb) {
+      throw UnsupportedError('Local database is not available on web. Use API service instead.');
+    }
+    
     if (_database != null) return _database!;
     _database = await _initDatabase();
     return _database!;

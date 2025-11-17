@@ -49,20 +49,20 @@ void main() async {
     try {
       sqfliteFfiInit();
       databaseFactory = databaseFactoryFfi;
+      
+      // Initialize database service
+      await DatabaseService().database;
     } catch (e) {
       debugPrint('Failed to initialize sqflite_ffi: $e');
     }
+  } else {
+    // Web platform - skip database initialization
+    debugPrint('Running on web - local database disabled');
   }
   
-  // Initialize services
+  // Initialize notifications (skip on web if fails)
   try {
-    await DatabaseService().database; // Initialize database
-  } catch (e) {
-    debugPrint('Failed to initialize database: $e');
-  }
-  
-  try {
-    await NotificationService().initialize(); // Initialize notifications
+    await NotificationService().initialize();
   } catch (e) {
     debugPrint('Failed to initialize notifications: $e');
   }
