@@ -1,0 +1,76 @@
+{
+  "morning_motivation": [
+    "Good morning {name}! Today is a new opportunity to crush your {goal} goal. Let's make it count! 💪",
+    "Rise and shine, {name}! Your body is capable of amazing things. Let's show it today! ☀️",
+    "Morning, {name}! Small steps every day lead to big results. Let's get moving! 🚀",
+    "Hey {name}! Your journey to better health starts now. Make today count! ⭐",
+    "Good morning! Another day to become a stronger, healthier you, {name}! 🌟"
+  ],
+  "evening_reflection": [
+    "Great work today, {name}! You showed up and gave it your all. Rest well! 🌙",
+    "Evening, {name}! Remember: progress, not perfection. You're doing amazing! ✨",
+    "Well done today! Your body thanks you for the effort, {name}. Sleep well! 😴",
+    "Another day of growth, {name}! Be proud of your consistency. 🎉",
+    "Night, {name}! Recovery is just as important as action. Rest up! 💤"
+  ],
+  "post_workout": {
+    "cardio": [
+      "Cardio complete! 🏃 You burned through that workout, {name}! Your heart is stronger now. 💪",
+      "Amazing {duration} min run, {name}! You're building endurance like a champion! 🏆",
+      "That's how it's done! Cardio session crushed. You're unstoppable! 🔥",
+      "Your cardiovascular system is thanking you right now, {name}! 💓"
+    ],
+    "strength": [
+      "Strength training done! 💪 Those muscles are growing, {name}! Recovery time now. 🛠️",
+      "You lifted like a pro today! {duration} minutes of pure power! 💯",
+      "Strength session complete! Your future self will thank you for this, {name}! 🦾",
+      "Beast mode activated! Another successful strength workout, {name}! 🔥"
+    ],
+    "yoga": [
+      "Namaste, {name}! 🧘 That yoga session brought balance to your day. Feel the zen! ☮️",
+      "Flexibility +1! Great yoga session, {name}. Mind and body in harmony! 🌸",
+      "{duration} minutes of mindful movement. You're glowing, {name}! ✨"
+    ],
+    "custom": [
+      "Custom workout complete! {duration} minutes of dedication! 💪",
+      "You designed it, you crushed it! Great session, {name}! 🎯",
+      "Another workout in the books! Your commitment is inspiring! 🌟"
+    ]
+  },
+  "milestone_achievements": [
+    "🔥 3-day streak! You're building a habit, {name}! Keep the momentum!",
+    "🌟 ONE WEEK STREAK! {name}, you're proving consistency wins!",
+    "🏆 30-DAY CHAMPION! {name}, you're an inspiration!",
+    "🎯 GOAL ACHIEVED! You hit your target, {name}! Absolutely phenomenal!",
+    "💯 100 WORKOUTS! You're a fitness legend, {name}!",
+    "🚀 1000 KM MILESTONE! You've traveled the distance, {name}!",
+    "⭐ 50,000 STEPS IN A DAY! Incredible achievement, {name}!"
+  ],
+  "nutritional_tips": [
+    "💡 Quick tip: Hydration is key! Aim for 8 glasses today, {name}! 💧",
+    "🥗 Protein helps muscle recovery after your workout! 🍗",
+    "🍎 Eating colorful foods means more nutrients! Rainbow plate = healthy plate! 🌈",
+    "🥑 Healthy fats support brain function. Include avocados, nuts, and fish! 🐟",
+    "🍌 Post-workout snack idea: Banana with peanut butter! 🥜",
+    "🥤 Green smoothies pack vitamins and minerals in one glass! 🌿",
+    "🍊 Vitamin C boosts immunity. Citrus fruits are your friends! 🍋"
+  ],
+  "hydration_reminders": [
+    "💧 Time to hydrate! Your body needs water, {name}!",
+    "🚰 Don't forget to drink water! Staying hydrated = staying healthy!",
+    "💦 Quick reminder: Have you had water in the last hour?",
+    "🌊 Hydration check! Grab that water bottle, {name}!"
+  ],
+  "rest_day_encouragement": [
+    "Rest day is progress too! Your muscles are rebuilding stronger, {name}! 💪",
+    "Recovery is part of the process. Enjoy your rest day! 🛋️",
+    "Taking a break shows wisdom, not weakness. Rest well, {name}! 😌",
+    "Active recovery or full rest - both are valuable. Listen to your body! 🧘"
+  ],
+  "health_alerts_positive": [
+    "✅ All vitals looking great, {name}! Keep up the excellent work!",
+    "💚 Heart rate is in perfect zone. You're doing amazing!",
+    "🎯 Oxygen levels optimal! Your body is thriving!",
+    "🌟 Temperature normal. Everything looks good, {name}!"
+  ]
+}

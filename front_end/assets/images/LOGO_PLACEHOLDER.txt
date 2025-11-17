@@ -1,0 +1,12 @@
+// Placeholder for app logo
+// Create a 512x512 PNG image with the HealthTrack logo
+// Suggested design:
+// - Heart icon with gradient (pink to purple)
+// - Or pulse wave graphic
+// - Dark background
+// - Modern, clean design
+
+// Logo will appear on:
+// - Login screen (with glow animation)
+// - App icon (launcher icon)
+// - Home screen header
